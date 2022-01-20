@@ -32,3 +32,23 @@ func add (num1: Int, num2: Int) -> Int {
 }
 
 add(num1: 3, num2: 5)
+
+
+func singing (song1: String, song2: String, song3: String) -> String  {
+    return "이 노래를 찾으시나요? : \(song1 + song2 + song3)"
+}
+
+singing(song1: "여호와를", song2: "송축하라", song3: "임재")
+
+func buy (food: String, ticket: String) -> String {
+    return "food name : \(food) ticket name : \(ticket)"
+}
+
+print(buy(food: "카오팟무", ticket: "forbangkok"))
+ 
+//함수 호출 역할
+func showMessage () -> String  {
+    return "안녕하세요"
+}
+
+showMessage()
