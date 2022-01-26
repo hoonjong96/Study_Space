@@ -23,9 +23,8 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="jongdroid"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8K-9k-Cha">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8K-9k-Cha">
                                 <rect key="frame" x="20" y="196" width="374" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.32549019610000002" green="0.42745098040000001" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -35,8 +34,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="I8K-9k-Cha" firstAttribute="trailing" secondItem="3rk-vY-QNJ" secondAttribute="trailing" id="Id7-69-xY7"/>
                             <constraint firstItem="3rk-vY-QNJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="aty-lJ-fMM"/>
+                            <constraint firstItem="I8K-9k-Cha" firstAttribute="leading" secondItem="3rk-vY-QNJ" secondAttribute="leading" id="cSu-bo-G2g"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3rk-vY-QNJ" secondAttribute="trailing" constant="20" id="jL5-RG-hiG"/>
+                            <constraint firstItem="I8K-9k-Cha" firstAttribute="top" secondItem="3rk-vY-QNJ" secondAttribute="bottom" constant="79" id="nF2-kg-u6E"/>
                             <constraint firstItem="3rk-vY-QNJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="ny4-k0-KUY"/>
                         </constraints>
                     </view>
