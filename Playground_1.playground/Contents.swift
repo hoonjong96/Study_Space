@@ -52,3 +52,9 @@ func showMessage () -> String  {
 }
 
 showMessage()
+
+
+let myNumber = 123
+myNumber.description
+
+print(myNumber)
