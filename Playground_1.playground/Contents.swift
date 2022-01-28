@@ -58,3 +58,21 @@ let myNumber = 123
 myNumber.description
 
 print(myNumber)
+
+var myString = [String]()
+
+var myAges = Array<Int>()
+myAges.append(1)
+
+myAges.append(contentsOf: [2,3,4,5])
+print(myAges[0])
+
+//스플릿
+var myTestNum = 12.99
+String(myTestNum).split(separator: ".")
+
+
+var mySecondArray = [String]()
+
+mySecondArray.append(contentsOf: ["박훈종", "한재민", "고연진"])
+
