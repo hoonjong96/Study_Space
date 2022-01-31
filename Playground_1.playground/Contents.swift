@@ -76,3 +76,4 @@ var mySecondArray = [String]()
 
 mySecondArray.append(contentsOf: ["박훈종", "한재민", "고연진"])
 
+mySecondArray.count
